@@ -1,0 +1,106 @@
+h2 {
+  padding: 2px 2px;
+  font-size: 24px;
+}
+h6 {
+  display: block;
+  font-size: 12px;
+}
+h5 {
+  font-size: 17px;
+  padding: 2px 2px;
+}
+img {
+  border-radius: 60px;
+  border: 2px solid white;
+}
+form {
+  display: block;
+  text-align: center;
+}
+p {
+  font-size: 15px;
+}
+li { 
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  
+
+
+}
+
+.background {
+  opacity: 0.9;
+  position: absolute;
+  z-index: -1;
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  font-family: Noto Sans JP, sans-serif;
+  color: white;
+  display: block;
+  text-align: center;
+}
+
+.searchgo {
+  position: static;
+  display: inline;
+  text-align: center;
+}
+.search {
+  padding: 4px;
+  margin: auto;
+  border-radius: 12px;
+  color: black;
+  font-family: Noto Sans JP, sans-serif;
+  box-shadow: #fff (37, 39, 89, 0.08) 10px 10px 8px 10;
+}
+.go {
+  padding: 4px 6px;
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid #fff;
+  font-family: Noto Sans JP, sans-serif;
+  text-decoration: none;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 10px 10px 8px 10;
+}
+
+.time {
+  padding: 1px 2px;
+  color: white;
+  font-size: 20px;
+}
+.currentweather {
+  font-size: 40px;
+}
+.predictions .row .col {
+  text-align: center;
+  display: inline-block;
+  padding: 10px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+}
+.wholeApp {
+  display: block;
+  text-align: center;
+}
+.buttonCurrentLocation {
+  padding: 4px 6px;
+  border-radius: 12px;
+  background: #fff;
+  border: 1px solid #fff;
+  font-family: Noto Sans JP, sans-serif;
+  text-decoration: none;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 10px 10px 8px 10;
+
+}

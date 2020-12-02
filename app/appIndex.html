@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Parcel Sandbox</title>
+  <meta charset="UTF-8" />
+  <title>Weather app</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="src/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/ddc3ee268a.js" crossorigin="anonymous"> </script>
+  <script rel="src/index.js"> </script>
+</head>
+
+<body>
+  <div class="wholeApp">
+    <div class="background">
+      <img
+        src="https://images.unsplash.com/photo-1597768825826-7a0dc84c5cc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60"
+        width=880px">
+    </div>
+    <h1 class="buttons">
+      <form id="search-form">
+        <input id="city-input" class="search" type="search" placeholder="Search city..." autocomplete="off"
+          autofocus="on" />
+        <input class="go" type="submit" value="Go" />
+      </form>
+      <button class="buttonCurrentLocation" id="buttonCurrentLocation" type="submit"> 📍 </button>
+    </h1>
+    <div class="container">
+      <div class="outline">
+        <h2 id="city">
+          Los Angeles
+        </h2>
+
+        <h3>
+          <div class="time">
+            Tuesday </br> 12:05
+          </div>
+        </h3>
+        <h4>
+          <div class="currentweather" id="currentweather">
+            It's sunny!
+          </div>
+        </h4>
+        <h5>
+          <span class="temperature" id="temperature">63</span>
+          <span class="units" id="units"><a href="#" id="fahrenheit-link">°F</a>|<a href="#" id="celsius-link">°C</a>
+          </span>
+          <ul>
+            <li>Humidity: <span id="humidity"></span>%</li>
+            <li>Wind: <span id="wind"></span>km/h</li>
+          </ul>
+        </h5>
+      </div>
+      <h6>
+        <div class="predictions">
+          <div class="row">
+            <div class="col">
+              <h6>MON</h6>
+              <i class="fas fa-sun fa-3x"></i>
+              <p><strong>34°</strong><small> 23°</small></p>
+            </div>
+
+            <div class="col">
+              <h6>TUE</h6>
+              <i class="fas fa-cloud-sun fa-3x"></i>
+              <p><strong>32°</strong><small> 22°</small></p>
+            </div>
+
+            <div class="col">
+              <h6>WED</h6>
+              <i class="fas fa-sun fa-3x"></i>
+              <p><strong>26°</strong><small> 20°</small></p>
+            </div>
+
+            <div class="col">
+              <h6>THU</h6>
+              <i class="fas fa-cloud-sun fa-3x"></i>
+              <p><strong>25°</strong><small> 19°</small></p>
+            </div>
+
+            <div class="col">
+              <h6>FRI</h6>
+              <i class="fas fa-cloud-sun fa-3x"></i>
+              <p><strong>27°</strong><small> 22°</small></p>
+            </div>
+          </div>
+        </div>
+      </h6>
+    </div>
+    <script src="src/index.js"></script>
+  </div>
+</body>
+
+</html>
